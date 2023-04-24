@@ -5,7 +5,7 @@ $subject = "Consulta Kdevs";
 $detail=$_POST['message'];
 $header="from: $name <$mailfrom>";
 // Enter your email address
-$to ='kolstomier@protonmail.com';
+$to ='kol@protonmail.com';
 $send_contact=mail($to,$subject,$detail,$header);
 // Check, if message sent to your email
 // display message "We've recived your information"
